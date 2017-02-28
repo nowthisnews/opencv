@@ -131,3 +131,7 @@ unset(PYTHON_CVPY_PROCESS)
 unset(CVPY_SUFFIX)
 unset(PYTHON_INSTALL_CONFIGURATIONS)
 unset(PYTHON_INSTALL_ARCHIVE)
+
+find_package(HDF5)
+include_directories(${HDF5_INCLUDE_DIRS})
+
